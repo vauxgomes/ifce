@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+#logo {
+	font-weight: bold;
+}
+
+.circle {
+	display: inline-block;
+
+	width: 20px;
+	height: 20px;
+
+	background-color: #349b46;
+	border-radius: 50%;
+}
+
+#result {
+	color: #349b46;
+}
